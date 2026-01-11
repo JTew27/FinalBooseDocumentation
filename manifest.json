@@ -1,0 +1,634 @@
+{
+  "source_base_path": "C:/Users/ianct/source/documentation",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "Resource",
+      "output": {
+        "resource": {
+          "relative_path": "index.json"
+        }
+      }
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/BooseTesting.AppArrayTesting.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/BooseTesting.AppArrayTesting.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BooseTesting.AppArrayTesting",
+      "Summary": "<p sourcefile=\"docs/BooseTesting.AppArrayTesting.yml\" sourcestartlinenumber=\"1\">Tests the arrays functionality by passing in a command lines to ensure it gets to the correct class and creates a valid array\nthat can be poked and peeked which is confirmed with Assert.areequal</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/BooseTesting.AppBoolTesting.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/BooseTesting.AppBoolTesting.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BooseTesting.AppBoolTesting",
+      "Summary": "<p sourcefile=\"docs/BooseTesting.AppBoolTesting.yml\" sourcestartlinenumber=\"1\">Tests that a boolean can be created with a valid boolean value that can be evaulated correclty as for the unrestrictedBoolean and checks functionality of my OR also</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/BooseTesting.AppCircleTesting.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/BooseTesting.AppCircleTesting.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BooseTesting.AppCircleTesting",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/BooseTesting.AppDrawtoTesting.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/BooseTesting.AppDrawtoTesting.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BooseTesting.AppDrawtoTesting",
+      "Summary": "<p sourcefile=\"docs/BooseTesting.AppDrawtoTesting.yml\" sourcestartlinenumber=\"1\">Tests the draw to command functionality by testing that the final position values in canvas matches the input\ni have entered . Have a valid test as well as a test to ensure invalid inputs are interpreted as errornous  us</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/BooseTesting.AppElseTesting.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/BooseTesting.AppElseTesting.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BooseTesting.AppElseTesting",
+      "Summary": "<p sourcefile=\"docs/BooseTesting.AppElseTesting.yml\" sourcestartlinenumber=\"1\">Performs a similar test to my if as they dont work without eachother where this attempts to run the if and ensures the else will return the value update in there</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/BooseTesting.AppEvaluationTest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/BooseTesting.AppEvaluationTest.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BooseTesting.AppEvaluationTest",
+      "Summary": "<p sourcefile=\"docs/BooseTesting.AppEvaluationTest.yml\" sourcestartlinenumber=\"1\">Testing if im able to evaluate expressions and the new result is stored properly</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/BooseTesting.AppIfTesting.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/BooseTesting.AppIfTesting.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BooseTesting.AppIfTesting",
+      "Summary": "<p sourcefile=\"docs/BooseTesting.AppIfTesting.yml\" sourcestartlinenumber=\"1\">Testing that my if functionality runs the correct part of the program in the correct order\nruns through the parser to ensure correct commands are called</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/BooseTesting.AppIntTesting.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/BooseTesting.AppIntTesting.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BooseTesting.AppIntTesting",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/BooseTesting.AppMoveToTesting.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/BooseTesting.AppMoveToTesting.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BooseTesting.AppMoveToTesting",
+      "Summary": "<p sourcefile=\"docs/BooseTesting.AppMoveToTesting.yml\" sourcestartlinenumber=\"1\">Tests the functionality of the move to command and the pen can correclty move across the canvas to the correct position\nTests if i purposelly put a negative moveto value it fails to move</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/BooseTesting.AppPeekTesting.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/BooseTesting.AppPeekTesting.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BooseTesting.AppPeekTesting",
+      "Summary": "<p sourcefile=\"docs/BooseTesting.AppPeekTesting.yml\" sourcestartlinenumber=\"1\">AppPeek testing if i can return a value from an array pulled out by the peek command</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/BooseTesting.AppPenColTesting.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/BooseTesting.AppPenColTesting.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BooseTesting.AppPenColTesting",
+      "Summary": "<p sourcefile=\"docs/BooseTesting.AppPenColTesting.yml\" sourcestartlinenumber=\"1\">Testing to esnure all colour values update appropriately when the correct parameters are passed in testng each field one by one</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/BooseTesting.AppPokeTesting.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/BooseTesting.AppPokeTesting.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BooseTesting.AppPokeTesting",
+      "Summary": "<p sourcefile=\"docs/BooseTesting.AppPokeTesting.yml\" sourcestartlinenumber=\"1\">Testing if i can add a variable to each type of array and using peek to confirm they are added to the list by returning the vatiable with peek</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/BooseTesting.AppRealTesting.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/BooseTesting.AppRealTesting.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BooseTesting.AppRealTesting",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/BooseTesting.AppRectTesting.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/BooseTesting.AppRectTesting.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BooseTesting.AppRectTesting",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/BooseTesting.AppWhileTesting.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/BooseTesting.AppWhileTesting.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BooseTesting.AppWhileTesting",
+      "Summary": "<p sourcefile=\"docs/BooseTesting.AppWhileTesting.yml\" sourcestartlinenumber=\"1\">Tests that while loops do not infinitely loop and do end when they are intended by chekcing the final value updated after the while loops runs\nalso checks if the while loop doesnt run when the condition is invalid</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/BooseTesting.testing.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/BooseTesting.testing.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BooseTesting.testing",
+      "Summary": "<p sourcefile=\"docs/BooseTesting.testing.yml\" sourcestartlinenumber=\"1\">Aims to pass the requirements and test the drawto,moveto and running multiple commands at once</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/BooseTesting.testingPart1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/BooseTesting.testingPart1.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BooseTesting.testingPart1",
+      "Summary": "<p sourcefile=\"docs/BooseTesting.testingPart1.yml\" sourcestartlinenumber=\"1\">Aims to pass the requirements and test the drawto,moveto and running multiple commands at once</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/BooseTesting.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/BooseTesting.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BooseTesting",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/JTEW_BOOSE.AppArray.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/JTEW_BOOSE.AppArray.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "JTEW_BOOSE.AppArray",
+      "Summary": "<p sourcefile=\"docs/JTEW_BOOSE.AppArray.yml\" sourcestartlinenumber=\"1\">AppArray class used to define an integer or a double array that can be added to using poke and a value cna be taken from\nusing peek. inherits the command interface so that the command format is used of set compile execute.\nEvaluation allows for the array to be saved after the command is executed aliging it with other classes</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/JTEW_BOOSE.AppBool.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/JTEW_BOOSE.AppBool.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "JTEW_BOOSE.AppBool",
+      "Summary": "<p sourcefile=\"docs/JTEW_BOOSE.AppBool.yml\" sourcestartlinenumber=\"1\">creates and evalutates boolean variables that have been entered true or false\ninherits from evaluation so that the class can set up varibales t be stored in a variable list containing all types\nmakes use  of Icommand inteerface to format the class with the parser compiliation and execution</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/JTEW_BOOSE.AppCanvas.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/JTEW_BOOSE.AppCanvas.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "JTEW_BOOSE.AppCanvas",
+      "Summary": "<p sourcefile=\"docs/JTEW_BOOSE.AppCanvas.yml\" sourcestartlinenumber=\"1\">new version of the canvas class that extends the Icanvas interface so that all the relevant drawing methods can be referenced and created that exist within so\nthey can be overidden to implement my own version</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/JTEW_BOOSE.AppCircle.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/JTEW_BOOSE.AppCircle.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "JTEW_BOOSE.AppCircle",
+      "Summary": "<p sourcefile=\"docs/JTEW_BOOSE.AppCircle.yml\" sourcestartlinenumber=\"1\">Inherits <xref href=\"BOOSE.CommandOneParameter\" data-throw-if-not-resolved=\"false\"></xref> meaning that this class expects and only takes one valid parameter\nso that it can be passed in to draw a circle\nSets up the circle command and its parameter so a circle can be drawn with canvas</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/JTEW_BOOSE.AppClear.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/JTEW_BOOSE.AppClear.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "JTEW_BOOSE.AppClear",
+      "Summary": "<p sourcefile=\"docs/JTEW_BOOSE.AppClear.yml\" sourcestartlinenumber=\"1\">allows for the bitmap to cleared to a blank slate</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/JTEW_BOOSE.AppCommandFactory.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/JTEW_BOOSE.AppCommandFactory.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "JTEW_BOOSE.AppCommandFactory",
+      "Summary": "<p sourcefile=\"docs/JTEW_BOOSE.AppCommandFactory.yml\" sourcestartlinenumber=\"1\">This factory extends the command factory in boose so that the relevant methods can be used such as makeCommand to\nmake a new custom instance of each drawing method</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/JTEW_BOOSE.AppDrawTo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/JTEW_BOOSE.AppDrawTo.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "JTEW_BOOSE.AppDrawTo",
+      "Summary": "<p sourcefile=\"docs/JTEW_BOOSE.AppDrawTo.yml\" sourcestartlinenumber=\"1\">Inherits <xref href=\"BOOSE.CommandTwoParameters\" data-throw-if-not-resolved=\"false\"></xref> so that two arguements are expected to be passed in so that\na line can be drawn from the x coordinate parameter to the y coordinate</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/JTEW_BOOSE.AppElse.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/JTEW_BOOSE.AppElse.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "JTEW_BOOSE.AppElse",
+      "Summary": "<p sourcefile=\"docs/JTEW_BOOSE.AppElse.yml\" sourcestartlinenumber=\"1\">Is ran when an else is found as part of an If else\ninherits from compoundCommand that makes use of conditional commmand used by all loops becasue a conditon needs\nto be evaluated to run a specifc part.\nensures that commands are run in a specifc order and the program counter is updated</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/JTEW_BOOSE.AppEvaluation.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/JTEW_BOOSE.AppEvaluation.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "JTEW_BOOSE.AppEvaluation",
+      "Summary": "<p sourcefile=\"docs/JTEW_BOOSE.AppEvaluation.yml\" sourcestartlinenumber=\"1\">used in my parser to handle the use of expressions and evaluate any equations that are passed in as the value to\nreturn a final value</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/JTEW_BOOSE.AppIf.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/JTEW_BOOSE.AppIf.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "JTEW_BOOSE.AppIf",
+      "Summary": "<p sourcefile=\"docs/JTEW_BOOSE.AppIf.yml\" sourcestartlinenumber=\"1\">if condition that will update variables to loop depending on what the condition returns\ninherits from compound command to use line numbers to allow for program counter to update to run commands in the correct order\ncommand interface is used for formatting///</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/JTEW_BOOSE.AppInt.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/JTEW_BOOSE.AppInt.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "JTEW_BOOSE.AppInt",
+      "Summary": "<p sourcefile=\"docs/JTEW_BOOSE.AppInt.yml\" sourcestartlinenumber=\"1\">Allows for storing and updating integer variables to a list so that they can be used in expressiosn and other commands\ninherots from the command interface to format the class witha set compile execute to run\ninherits from evaluation to essentially format any storage with a name and a value</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/JTEW_BOOSE.AppMoveTo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/JTEW_BOOSE.AppMoveTo.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "JTEW_BOOSE.AppMoveTo",
+      "Summary": "<p sourcefile=\"docs/JTEW_BOOSE.AppMoveTo.yml\" sourcestartlinenumber=\"1\">Creates and calls the moveto command so that the pen is repositioned by the canvas\npassing an x and y coordinate to move the pen when it is executed.</p>\n<p sourcefile=\"docs/JTEW_BOOSE.AppMoveTo.yml\" sourcestartlinenumber=\"4\">Inherits <xref href=\"BOOSE.CommandTwoParameters\" data-throw-if-not-resolved=\"false\"></xref> meaning two parameters must be passed in\nfor both coordinates so that they can be passed to canvas.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/JTEW_BOOSE.AppPColour.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/JTEW_BOOSE.AppPColour.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "JTEW_BOOSE.AppPColour",
+      "Summary": "<p sourcefile=\"docs/JTEW_BOOSE.AppPColour.yml\" sourcestartlinenumber=\"1\">Sets the pen colour for drawing.\nInherits from <xref href=\"BOOSE.CommandThreeParameters\" data-throw-if-not-resolved=\"false\"></xref> so the number of parameters much match\nrepresenting (RGB red,green,blue)</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/JTEW_BOOSE.AppParser.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/JTEW_BOOSE.AppParser.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "JTEW_BOOSE.AppParser",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/JTEW_BOOSE.AppPeek.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/JTEW_BOOSE.AppPeek.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "JTEW_BOOSE.AppPeek",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/JTEW_BOOSE.AppPoke.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/JTEW_BOOSE.AppPoke.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "JTEW_BOOSE.AppPoke",
+      "Summary": "<p sourcefile=\"docs/JTEW_BOOSE.AppPoke.yml\" sourcestartlinenumber=\"1\">allows for a value to be defined and added to an already exisitng array in a specifc location field</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/JTEW_BOOSE.AppReal.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/JTEW_BOOSE.AppReal.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "JTEW_BOOSE.AppReal",
+      "Summary": "<p sourcefile=\"docs/JTEW_BOOSE.AppReal.yml\" sourcestartlinenumber=\"1\">creates double values so that they can be stored in app stored program variable list to be used for creating different drawing commands\nInherits the Icommand interface to use the command format of set compilign and executing\nInherits Evaluation so that values can be saved and set up correctly</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/JTEW_BOOSE.AppRect.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/JTEW_BOOSE.AppRect.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "JTEW_BOOSE.AppRect",
+      "Summary": "<p sourcefile=\"docs/JTEW_BOOSE.AppRect.yml\" sourcestartlinenumber=\"1\">Inherits <xref href=\"BOOSE.CommandTwoParameters\" data-throw-if-not-resolved=\"false\"></xref> so that two arguements are expected to be passed in so that\na rectangle can be drawn from the width and height at the current x and y coordinate.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/JTEW_BOOSE.AppStoredProgram.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/JTEW_BOOSE.AppStoredProgram.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "JTEW_BOOSE.AppStoredProgram",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/JTEW_BOOSE.AppTri.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/JTEW_BOOSE.AppTri.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "JTEW_BOOSE.AppTri",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/JTEW_BOOSE.AppWhile.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/JTEW_BOOSE.AppWhile.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "JTEW_BOOSE.AppWhile",
+      "Summary": "<p sourcefile=\"docs/JTEW_BOOSE.AppWhile.yml\" sourcestartlinenumber=\"1\">performs the while loop mkaing use of the command stack to execute in a specifc order</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/JTEW_BOOSE.AppWriteText.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/JTEW_BOOSE.AppWriteText.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "JTEW_BOOSE.AppWriteText",
+      "Summary": "<p sourcefile=\"docs/JTEW_BOOSE.AppWriteText.yml\" sourcestartlinenumber=\"1\">Inherits <xref href=\"BOOSE.CommandOneParameter\" data-throw-if-not-resolved=\"false\"></xref> meaning that this class expects and only takes one valid parameter\nso that it can be passed to write the text onto the bitmap\nSets up the circle command and its parameter so a circle can be drawn with canvas</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/JTEW_BOOSE.BOOSE.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/JTEW_BOOSE.BOOSE.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "JTEW_BOOSE.BOOSE",
+      "Summary": "<p sourcefile=\"docs/JTEW_BOOSE.BOOSE.yml\" sourcestartlinenumber=\"1\">The main class that allows for the program to run BOOSE calling relevant interfaces connecting parser, command factory,\nstored program and drawing canvas.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/JTEW_BOOSE.IStoringVariables.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/JTEW_BOOSE.IStoringVariables.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "JTEW_BOOSE.IStoringVariables",
+      "Summary": "<p sourcefile=\"docs/JTEW_BOOSE.IStoringVariables.yml\" sourcestartlinenumber=\"1\">Interface for essential methods in order to store and update variables</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/JTEW_BOOSE.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/JTEW_BOOSE.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "JTEW_BOOSE",
+      "Summary": null
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "docs/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/toc.html"
+        },
+        ".json": {
+          "relative_path": "docs/toc.json"
+        }
+      },
+      "version": ""
+    }
+  ],
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}

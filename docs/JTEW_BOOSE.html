@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Namespace JTEW_BOOSE | BOOSEDOC </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Namespace JTEW_BOOSE | BOOSEDOC ">
+      
+      
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="BOOSEDOC">
+            BOOSEDOC
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="JTEW_BOOSE">
+
+  <h1 id="JTEW_BOOSE" data-uid="JTEW_BOOSE" class="text-break">Namespace JTEW_BOOSE</h1>
+  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="markdown level0 remarks"></div>
+
+    <h3 id="classes">
+Classes
+</h3>
+    <dl class="jumplist">
+      <dt><a class="xref" href="JTEW_BOOSE.AppArray.html">AppArray</a></dt>
+      <dd><p>AppArray class used to define an integer or a double array that can be added to using poke and a value cna be taken from
+using peek. inherits the command interface so that the command format is used of set compile execute.
+Evaluation allows for the array to be saved after the command is executed aliging it with other classes</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="JTEW_BOOSE.AppBool.html">AppBool</a></dt>
+      <dd><p>creates and evalutates boolean variables that have been entered true or false
+inherits from evaluation so that the class can set up varibales t be stored in a variable list containing all types
+makes use  of Icommand inteerface to format the class with the parser compiliation and execution</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="JTEW_BOOSE.AppCanvas.html">AppCanvas</a></dt>
+      <dd><p>new version of the canvas class that extends the Icanvas interface so that all the relevant drawing methods can be referenced and created that exist within so
+they can be overidden to implement my own version</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="JTEW_BOOSE.AppCircle.html">AppCircle</a></dt>
+      <dd><p>Inherits <span class="xref">BOOSE.CommandOneParameter</span> meaning that this class expects and only takes one valid parameter
+so that it can be passed in to draw a circle
+Sets up the circle command and its parameter so a circle can be drawn with canvas</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="JTEW_BOOSE.AppClear.html">AppClear</a></dt>
+      <dd><p>allows for the bitmap to cleared to a blank slate</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="JTEW_BOOSE.AppCommandFactory.html">AppCommandFactory</a></dt>
+      <dd><p>This factory extends the command factory in boose so that the relevant methods can be used such as makeCommand to
+make a new custom instance of each drawing method</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="JTEW_BOOSE.AppDrawTo.html">AppDrawTo</a></dt>
+      <dd><p>Inherits <span class="xref">BOOSE.CommandTwoParameters</span> so that two arguements are expected to be passed in so that
+a line can be drawn from the x coordinate parameter to the y coordinate</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="JTEW_BOOSE.AppElse.html">AppElse</a></dt>
+      <dd><p>Is ran when an else is found as part of an If else
+inherits from compoundCommand that makes use of conditional commmand used by all loops becasue a conditon needs
+to be evaluated to run a specifc part.
+ensures that commands are run in a specifc order and the program counter is updated</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="JTEW_BOOSE.AppEvaluation.html">AppEvaluation</a></dt>
+      <dd><p>used in my parser to handle the use of expressions and evaluate any equations that are passed in as the value to
+return a final value</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="JTEW_BOOSE.AppIf.html">AppIf</a></dt>
+      <dd><p>if condition that will update variables to loop depending on what the condition returns
+inherits from compound command to use line numbers to allow for program counter to update to run commands in the correct order
+command interface is used for formatting///</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="JTEW_BOOSE.AppInt.html">AppInt</a></dt>
+      <dd><p>Allows for storing and updating integer variables to a list so that they can be used in expressiosn and other commands
+inherots from the command interface to format the class witha set compile execute to run
+inherits from evaluation to essentially format any storage with a name and a value</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="JTEW_BOOSE.AppMoveTo.html">AppMoveTo</a></dt>
+      <dd><p>Creates and calls the moveto command so that the pen is repositioned by the canvas
+passing an x and y coordinate to move the pen when it is executed.</p>
+<p>Inherits <span class="xref">BOOSE.CommandTwoParameters</span> meaning two parameters must be passed in
+for both coordinates so that they can be passed to canvas.</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="JTEW_BOOSE.AppPColour.html">AppPColour</a></dt>
+      <dd><p>Sets the pen colour for drawing.
+Inherits from <span class="xref">BOOSE.CommandThreeParameters</span> so the number of parameters much match
+representing (RGB red,green,blue)</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="JTEW_BOOSE.AppParser.html">AppParser</a></dt>
+      <dd></dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="JTEW_BOOSE.AppPeek.html">AppPeek</a></dt>
+      <dd></dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="JTEW_BOOSE.AppPoke.html">AppPoke</a></dt>
+      <dd><p>allows for a value to be defined and added to an already exisitng array in a specifc location field</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="JTEW_BOOSE.AppReal.html">AppReal</a></dt>
+      <dd><p>creates double values so that they can be stored in app stored program variable list to be used for creating different drawing commands
+Inherits the Icommand interface to use the command format of set compilign and executing
+Inherits Evaluation so that values can be saved and set up correctly</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="JTEW_BOOSE.AppRect.html">AppRect</a></dt>
+      <dd><p>Inherits <span class="xref">BOOSE.CommandTwoParameters</span> so that two arguements are expected to be passed in so that
+a rectangle can be drawn from the width and height at the current x and y coordinate.</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="JTEW_BOOSE.AppStoredProgram.html">AppStoredProgram</a></dt>
+      <dd></dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="JTEW_BOOSE.AppTri.html">AppTri</a></dt>
+      <dd></dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="JTEW_BOOSE.AppWhile.html">AppWhile</a></dt>
+      <dd><p>performs the while loop mkaing use of the command stack to execute in a specifc order</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="JTEW_BOOSE.AppWriteText.html">AppWriteText</a></dt>
+      <dd><p>Inherits <span class="xref">BOOSE.CommandOneParameter</span> meaning that this class expects and only takes one valid parameter
+so that it can be passed to write the text onto the bitmap
+Sets up the circle command and its parameter so a circle can be drawn with canvas</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="JTEW_BOOSE.BOOSE.html">BOOSE</a></dt>
+      <dd><p>The main class that allows for the program to run BOOSE calling relevant interfaces connecting parser, command factory,
+stored program and drawing canvas.</p>
+</dd>
+    </dl>
+    <h3 id="interfaces">
+Interfaces
+</h3>
+    <dl class="jumplist">
+      <dt><a class="xref" href="JTEW_BOOSE.IStoringVariables.html">IStoringVariables</a></dt>
+      <dd><p>Interface for essential methods in order to store and update variables</p>
+</dd>
+    </dl>
+
+
+</article>
+
+        <div class="contribution d-print-none">
+        </div>
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
